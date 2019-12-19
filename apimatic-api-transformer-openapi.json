@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "APIMATIC API Transformer",
+        "description": "Transform API Descriptions from\/to various formats",
+        "termsOfService": "https:\/\/apimatic.io\/transformer"
+    },
+    "servers": [
+        "httpsapimatic.io\/api\/transform"
+    ],
+    "paths": {
+        "\/transform": {
+            "post": {
+                "summary": "Transform API Descriptions from\/to various formats",
+                "description": "Transform API Descriptions from\/to various formats e.g., Swagger, API Blueprint, RAML, WADL, Google Discovery, I\/O Docs.\n\n### INPUTS\n* API Blueprint\n* Swagger 1.0 - 1.2\n* Swagger 2.0 JSON\n* Swagger 2.0 YAML\n* WADL - W3C 2009\n* Google Discovery\n* RAML 0.8\n* I\/O Docs - Mashery\n* HAR 1.2\n* Postman Collection 1.0 - 2.0\n* APIMATIC Format\n* Mashape\n\n### OUTPUTS\n* API Blueprint\n* Swagger 1.2\n* Swagger 2.0 JSON\n* Swagger 2.0 YAML\n* WADL - W3C 2009\n* RAML 0.8 - 1.0\n* APIMATIC Format",
+                "operationId": "ConvertAPI",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "url",
+                        "in": "formData",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
