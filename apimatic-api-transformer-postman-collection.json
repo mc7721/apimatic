@@ -1,0 +1,51 @@
+{
+    "id": "e4b180bd88fdb81cbbfc8b368507de1f",
+    "name": "APIMATIC API Transformer",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "7d82bf6cafdc6a7d3afa00052dafae9f",
+            "name": "Transform API Descriptions from\/to various formats",
+            "url": "httpsapimatic.io\/api\/transform\/transform",
+            "description": "Transform API Descriptions from\/to various formats e.g., Swagger, API Blueprint, RAML, WADL, Google Discovery, I\/O Docs.\n\n### INPUTS\n* API Blueprint\n* Swagger 1.0 - 1.2\n* Swagger 2.0 JSON\n* Swagger 2.0 YAML\n* WADL - W3C 2009\n* Google Discovery\n* RAML 0.8\n* I\/O Docs - Mashery\n* HAR 1.2\n* Postman Collection 1.0 - 2.0\n* APIMATIC Format\n* Mashape\n\n### OUTPUTS\n* API Blueprint\n* Swagger 1.2\n* Swagger 2.0 JSON\n* Swagger 2.0 YAML\n* WADL - W3C 2009\n* RAML 0.8 - 1.0\n* APIMATIC Format",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e4b180bd88fdb81cbbfc8b368507de1f",
+            "rawModeData": ""
+        }
+    ]
+}
