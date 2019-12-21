@@ -13,8 +13,8 @@
         "service api",
         "tempsave"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apimatic\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -32,13 +32,17 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apimatic-api-transformer-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apimatic\/master\/apimatic-api-transformer-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Blog",
             "url": "https:\/\/apimatic.io\/blog"
